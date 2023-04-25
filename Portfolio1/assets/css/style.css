@@ -140,6 +140,23 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
+/* Footer section */
+
+.contact-platforms {
+    text-align: center;
+}
+
+.contact-platforms > li {
+    display: inline;
+}
+
+.contact-platforms i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* Responsive styles for mobile devices */
 @media (max-width: 767px) {
 
