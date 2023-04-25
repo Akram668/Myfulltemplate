@@ -122,6 +122,24 @@ nav ul li a:hover {
     height: 250px;
 }
 
+/* Contact Section  */
+
+#contact {
+    height: 40vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact form {
+    width: 300px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Responsive styles for mobile devices */
 @media (max-width: 767px) {
 
