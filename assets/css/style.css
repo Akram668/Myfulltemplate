@@ -91,6 +91,7 @@ nav ul li a:hover {
     padding-right: 3%;
     height: 45vh;
     width: 45vh;
+    margin-top: 50px;
 }
 
 /* Gallery Section  */
@@ -208,6 +209,7 @@ nav ul li a:hover {
         height: 350px;
         width:auto ;
         padding-top: 20px;
+        margin-top: auto;
     }
 
     /* Gallery Section  */
