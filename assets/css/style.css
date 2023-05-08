@@ -165,8 +165,24 @@ nav ul li a:hover {
     /* hero section  */
 
     nav a#logo {
+        font-size: 3vw;
         display: none;
+   
+    
+    /* nav links */
+   
     }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
 
 
     /* about section  */
@@ -177,13 +193,18 @@ nav ul li a:hover {
     }
 
     .about-facts {
-        width: 70%;
+        width: 90%;    
+    }
+
+    .about-facts h2 {
+        font-size: 3vh;
+        padding-bottom: 1%;
     }
 
     .about-image {
-        height: 300px;
-        width: 300px;
-        padding-top: 30px;
+        height: 200px;
+        width: 200px;
+        padding-top: 20px;
     }
 
     /* Gallery Section  */
@@ -200,8 +221,18 @@ nav ul li a:hover {
     }
 
     .gallery-images img {
-        width: 300px;
-        height: 300px;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Contact Section  */
+
+    #contact {
+        margin-top: 50px; 
+        height: auto;
+        padding: 20px;
     }
 
 }
