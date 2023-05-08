@@ -19,21 +19,21 @@ nav {
 
 nav a#logo {
     color: white;
-    font-size: 24px;
+    font-size: 2.4vw;
     font-weight: bold;
     list-style-type: none;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .nav-list-wrapper {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 2%;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 #hero-banner {
-    margin-top: 50px;
+    margin-top: 5%;
     width: 100%;
     height: auto;
 }
@@ -67,28 +67,27 @@ nav ul li a:hover {
 /* About Section  */
 
 #about {
-    margin-top: 0px;
+    margin-top: 0;
     height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
 }
 
 .about-facts {
-    margin: 20px;
-    max-width: 500px;
+    margin: 2%;
+    max-width: 50%;
 }
 
 .about-facts h2 {
-    padding-bottom: 20px;
+    padding-bottom: 2%;
 }
 
 .about-image {
-    padding-right: 30px;
-    height: 450px;
-    width: 450px;
+    padding-right: 3%;
+    height: 45vh;
+    width: 45vh;
 }
 
 /* Gallery Section  */
@@ -100,12 +99,14 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 2%;
 }
 
 #gallery h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 4vh;
 }
 
 .gallery-images {
@@ -114,12 +115,13 @@ nav ul li a:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .gallery-images img{
-    padding: 10px;
-    width: 250px;
-    height: 250px;
+    padding: 1%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Contact Section  */

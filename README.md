@@ -11,6 +11,23 @@ Features:
 4. Evidence-based information: The webpage will provide reliable and accurate information about the artifact, based on credible historical sources and references.
 5. Contact information: The webpage will include contact information, such as an email address or a contact form, for visitors to get in touch with the website owner for any inquiries or feedback.
 
+Header:
+- Logo or site name
+- Navigation menu (Home, About, Timeline, Gallery, Contact)
+
+Main Content:
+- Hero section with a large heading and a brief introduction to the webpage
+- Information section with evidence-based facts and details about the artifact
+- Image supporting the facts
+- gallery of other work from the artist
+
+Footer:
+- Contact information
+- Social media links
+- Copyright information
+
+
+
  Future features:
 Future features:
 - Interactive timeline: Instead of a static timeline, I willl be adding an interactive timeline that allows users to click on different events to learn more about them, or to zoom in/out to explore different time periods in more detail.
@@ -30,7 +47,7 @@ Typography and color scheme:
  * Georgia, serif; 
 
 3. Primary Color:
- * F9E9DA - potentiall change to white 
+ * F9E9DA
 
 
 
