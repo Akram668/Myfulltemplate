@@ -71,7 +71,9 @@ Footer:
 
 7. technology
 8. testing
-   8.1 code validation
+   8.1 code validation http://jigsaw.w3.org/css-validator/validator$link
+   https://validator.w3.org/nu/#l35c14
+
    8.2 test cases (user story based with screenshots)
    8.3 fixed bugs
    8.4 supported screens and browsers

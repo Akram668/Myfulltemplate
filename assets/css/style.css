@@ -1,27 +1,30 @@
-/* Set box-sizing, margin, and padding for all elements */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* Set background color for body and hide overflow-y scroll bar */
 
 body {
     background-color: #F9E9DA;
+    font-family: Georgia, serif;
     overflow: hidden;
     overflow-y: scroll;
 }
 
-/* Navigation */
+/* Headings */
+h1,h2,h3,h4 {
+    font-family: Roboto, sans-serif;
+}
 
-/* Style the navigation bar */
+/* Navigation */
 nav {
     background-color: #333;
     align-items: center;
     display: flex;
 }
 
-/* Style the logo link */
+
 nav a#logo {
     color: white;
     font-size: 2.4vw;
@@ -31,7 +34,6 @@ nav a#logo {
     padding-left: 2%;
 }
 
-/* Style the navigation list */
 .nav-list-wrapper {
     max-width: 100%;
     margin: 0 auto;
@@ -66,8 +68,6 @@ nav ul li a:hover {
 }
 
 /* Hero Banner Section */
-
-/* Style the hero banner section */
 #hero-banner {
     margin-top: 5%;
     width: 100%;
@@ -77,9 +77,6 @@ nav ul li a:hover {
 
 
 /* About Section */
-
-/* Style the about section */
-
 #about {
     margin-top: 0;
     height: 80vh;
@@ -107,9 +104,6 @@ nav ul li a:hover {
 }
 
 /* Gallery Section */
-
-/* Style the gallery section */
-
 #gallery {
     display: flex;
     flex-direction: column;
@@ -146,9 +140,6 @@ nav ul li a:hover {
 }
 
 /* Contact Section */
-
-/* Style the contact section */
-
 #contact {
     height: auto;
     padding: 20px;
@@ -167,7 +158,6 @@ nav ul li a:hover {
 }
 
 /* Footer section */
-
 .contact-platforms {
     text-align: center;
 }
@@ -194,7 +184,6 @@ nav ul li a:hover {
    }
 
    /* nav links */
-   
    nav ul li {
         display: inline-block;
         margin-bottom: 10px;
@@ -208,7 +197,6 @@ nav ul li a:hover {
 
 
     /* about section  */
-
     #about {
         display: flex;
         flex-direction: row;
@@ -240,7 +228,6 @@ nav ul li a:hover {
       }
 
     /* Gallery Section  */
-
     #gallery {
         height: auto;
         margin-top: 50px;
@@ -260,7 +247,6 @@ nav ul li a:hover {
     }
 
     /* Contact Section  */
-
     #contact {
         margin-top: 50px; 
         height: auto;
