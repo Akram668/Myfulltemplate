@@ -1,8 +1,10 @@
+/* Set box-sizing, margin, and padding for all elements */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* Set background color for body and hide overflow-y scroll bar */
 
 body {
     background-color: #F9E9DA;
@@ -12,12 +14,14 @@ body {
 
 /* Navigation */
 
+/* Style the navigation bar */
 nav {
     background-color: #333;
     align-items: center;
     display: flex;
 }
 
+/* Style the logo link */
 nav a#logo {
     color: white;
     font-size: 2.4vw;
@@ -27,6 +31,7 @@ nav a#logo {
     padding-left: 2%;
 }
 
+/* Style the navigation list */
 .nav-list-wrapper {
     max-width: 100%;
     margin: 0 auto;
@@ -60,6 +65,9 @@ nav ul li a:hover {
     background-color: #111;
 }
 
+/* Hero Banner Section */
+
+/* Style the hero banner section */
 #hero-banner {
     margin-top: 5%;
     width: 100%;
@@ -68,7 +76,9 @@ nav ul li a:hover {
 }
 
 
-/* About Section  */
+/* About Section */
+
+/* Style the about section */
 
 #about {
     margin-top: 0;
@@ -96,7 +106,9 @@ nav ul li a:hover {
     margin-top: 50px;
 }
 
-/* Gallery Section  */
+/* Gallery Section */
+
+/* Style the gallery section */
 
 #gallery {
     display: flex;
@@ -133,7 +145,9 @@ nav ul li a:hover {
     height: 250px;
 }
 
-/* Contact Section  */
+/* Contact Section */
+
+/* Style the contact section */
 
 #contact {
     height: auto;
@@ -197,31 +211,33 @@ nav ul li a:hover {
 
     #about {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
     }
 
     .about-facts {
-        width: 90%;    
+        flex: 1;  
     }
 
     .about-facts p {
-    flex: 1;
-    text-align: center;
+   
+        text-align: center;
     
     }
    
     .about-facts h2 {
-        font-size: 3vh;
+        font-size: 2vh;
         padding-bottom: 0;
-        padding-top: 25px;
+    
     }
 
     .about-image {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    margin-top: 50px;
-    }
+       
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 5px;
+      }
 
     /* Gallery Section  */
 
