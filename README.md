@@ -48,6 +48,7 @@ such as Home, About, Gallery, and Contact.
 
 
 - __Wireframe__
+![IMG_7919](https://user-images.githubusercontent.com/128055846/237030720-d8d0f0d1-03ae-4ddd-ac13-52bf6f8c3c91.PNG)
 
 
 
