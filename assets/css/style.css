@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 /* Hero Banner Section */
 #hero-banner {
-    margin-top: 5%;
+    
     width: 100%;
     height: auto;
     margin-bottom: 5%;
@@ -195,7 +195,6 @@ nav ul li a:hover {
     }
 
 
-
     /* about section  */
     #about {
         display: flex;
@@ -208,15 +207,12 @@ nav ul li a:hover {
     }
 
     .about-facts p {
-   
         text-align: center;
-    
     }
    
     .about-facts h2 {
-        font-size: 2vh;
-        padding-bottom: 0;
-    
+        font-size: 100%;
+        padding-top: 25px;
     }
 
     .about-image {
@@ -253,4 +249,23 @@ nav ul li a:hover {
         padding: 20px;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .about-facts h2{
+        text-align: center;
+    }
+
+    .about-facts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+ 
+    h1, h2, h3, h4 {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        margin: 0;
+    }
 }
