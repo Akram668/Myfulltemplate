@@ -107,8 +107,6 @@ nav ul li a:hover {
 .about-image {
     padding-right: 3%;
     height: 45vh;
-    width: 45vh;
-    margin-top: 50px;
 }
 
 /* Gallery Section */
@@ -206,7 +204,12 @@ nav ul li a:hover {
     /* about section  */
     #about {
         flex-direction: row;
+        margin-top: 0;
+        height: 80vh;
+        width: 100%;
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .about-facts {
@@ -219,7 +222,7 @@ nav ul li a:hover {
    
     .about-facts h2 {
         font-size: 100%;
-        padding-top: 25px;
+        padding-top: 10%;
     }
 
     .about-image {
@@ -228,6 +231,7 @@ nav ul li a:hover {
         height: auto;
         margin-top: 50px;
         margin-left: 5px;
+        padding-right: 3%;
       }
 
     /* Gallery Section  */
@@ -258,11 +262,22 @@ nav ul li a:hover {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
         .about-image {
             order: 2;
             flex: 2;
             margin-left: 20px;
+            padding-right: 3%;
+            height: 45vh;
+        }
+
+        #about {
+            margin-top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
         }
 
      .about-facts {
@@ -270,23 +285,44 @@ nav ul li a:hover {
         display: flex;
         flex-wrap: wrap;
      } 
-     
-     .about-facts h2 {
-        
-    }
+
 
     .about-facts p {
     flex: 2;
     }
+    
+    .gallery-images {
+        display: flex;
+        padding: 25px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        height: auto;
+    }
 
+    .gallery-images img {
+        padding: 3%;
+        max-width: 100%;
+        height: 300px;
+    }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
+    #about {
+
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
     .about-facts {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        flex-wrap: wrap;
     }
 
     .about-facts h2{ 
@@ -298,11 +334,26 @@ nav ul li a:hover {
      }
 
      .about-facts p {
-        margin-bottom: 0%;
+        flex: 3;
      }
  
     h1, h2, h3, h4 {
         text-align: center;
         margin: 0;
     }
+
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 20px;
+        padding-right: 3%;
+        height: 45vh;
+    }
+
+    .gallery-images img {
+        padding: 3%;
+        height: auto;
+        width: auto;
+    }
+
 }
