@@ -267,7 +267,7 @@ nav ul li a:hover {
             order: 2;
             flex: 2;
             margin-left: 20px;
-            padding-right: 3%;
+            padding-right: 20px;
             height: 45vh;
         }
 
@@ -302,13 +302,13 @@ nav ul li a:hover {
     }
 
     .gallery-images img {
-        padding: 3%;
+        padding: 1%;
         max-width: 100%;
         height: 300px;
     }
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     #about {
 
         margin-top: 0;
@@ -346,14 +346,64 @@ nav ul li a:hover {
         order: 2;
         flex: 2;
         margin-left: 20px;
-        padding-right: 3%;
-        height: 45vh;
+        padding-right: 20px;
+        height: 600px;
     }
 
     .gallery-images img {
-        padding: 3%;
-        height: auto;
-        width: auto;
+        padding: 1%;
+        height: 400px;
+        max-width: 100%;
     }
 
+}
+
+@media (min-width: 1440px) {
+    
+    #about {
+
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .about-facts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-facts h2{ 
+        text-align: center; 
+        padding: 10PX; 
+        position: absolute; 
+        right: 5px; 
+        left: 5px;
+     }
+
+     .about-facts p {
+        flex: 2;
+     }
+ 
+    h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 100px;
+        padding-right: 100px;
+        height: 600px;
+    }
+
+    .gallery-images img {
+        padding: 1%;
+        height: 500px;
+        max-width: 100%;
+    }
 }
