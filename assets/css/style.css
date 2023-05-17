@@ -85,6 +85,11 @@ nav ul li a:hover {
 
 
 /* About Section */
+.about-image {
+    padding-right: 3%;
+    height: 45vh;
+}
+
 #about {
     margin-top: 0;
     height: 80vh;
@@ -100,21 +105,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.about-facts h2 {
-    
-        text-align: center;
-        padding: 10PX;
-        position: absolute;
-        right: 5px;
-        left: 5px;
-        bottom: 62%;
-    
-}
 
-.about-image {
-    padding-right: 3%;
-    height: 45vh;
-}
 
 /* Gallery Section */
 #gallery {
@@ -185,17 +176,27 @@ nav ul li a:hover {
     color: #3a3a3a;
 }
 
+
+
+
 /* Responsive styles for mobile devices */
 @media (max-width: 767px) {
+    
+    /* Headings */
+    h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0;
+    }
 
-    /* hero section  */
+
+    /* Hero section  */
 
     nav a#logo {
     
         display: none;
-   }
+    }
 
-   /* nav links */
+   /* Navigation Section */
    nav ul li {
         display: inline-block;
         margin-bottom: 10px;
@@ -205,9 +206,18 @@ nav ul li a:hover {
         font-size: 16px;
         padding: 5px 10px;
     }
+    
+    
+    /* About section  */
+    .about-image {
+        
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 
-
-    /* about section  */
     #about {
         flex-direction: row;
         margin-top: 0;
@@ -218,32 +228,18 @@ nav ul li a:hover {
         justify-content: center;
     }
 
+
     .about-facts {
-        flex: 1;  
+        position: relative; 
+        top: 8%;
     }
 
-   
-   
     .about-facts h2 {
-        text-align: center;
-        padding-top: 10%;
-        padding: 0;
-        position: static;
-        right: auto;
-        left: auto;
-        bottom: auto;
+        padding: 15px;
         font-size: 16px;
     }
-
-    .about-image {
-       
-        max-width: 100%;
-        height: auto;
-        margin-top: 50px;
-        padding-left: 3%;
-        padding-right: 3%;
-      }
-
+    
+    
     /* Gallery Section  */
     #gallery {
         height: auto;
@@ -272,44 +268,51 @@ nav ul li a:hover {
 }
 
 @media (min-width: 767px) {
-        .about-image {
-            order: 2;
-            flex: 2;
-            margin-left: 20px;
-            padding-right: 20px;
-            height: 45vh;
-        }
-
-        #about {
-            margin-top: 0;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: auto;
-        }
-
-     .about-facts {
     
+   /* Headings */
+    h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    /* About section  */
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 20px;
+        padding-right: 20px;
+        height: 45vh;
+    }
+
+    #about {
+        margin-top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .about-facts {
+        
         display: flex;
         flex-wrap: wrap;
-     } 
-
-     .about-facts h2 {
-        text-align: center;
-        padding: 10PX;
-        position: absolute;
-        right: 5px;
-        left: 5px;
-        bottom: 55%;
-    }
-
-
-    .about-facts p {
-    flex: 2;
-    font-size: medium;
+    } 
+    
+    
+    .about-facts h2 {
+        
+        padding-top: 5%;
     }
     
+    
+    .about-facts p {
+        flex: 2;
+        font-size: medium;
+    }
+   
+    
+    /* Gallery Section  */
     .gallery-images {
         display: flex;
         padding: 25px;
@@ -328,15 +331,34 @@ nav ul li a:hover {
 }
 
 @media (min-width: 1024px) {
-    #about {
+    
+  /* Headings */
+    h1, h2, h3, h4 {
+    text-align: center;
+    margin: 0;
+    }
 
+    /* Navigation Section */
+    .nav-list-wrapper {
+        height: 70px;
+    }
+    
+    /* About Section  */
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 20px;
+        padding-right: 20px;
+        height: 65vh;
+    }
+
+    #about {
         margin-top: 0;
         height: auto;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
     
     .about-facts {
@@ -345,41 +367,24 @@ nav ul li a:hover {
     }
 
     .about-facts h2{ 
-        text-align: center; 
-        padding: 10PX; 
-        position: absolute; 
-        right: 5px; 
-        left: 5px;
-        bottom: 58%;
-     }
-
-     .about-facts p {
-        flex: 3;
-        font-size: larger;
-     }
- 
-    h1, h2, h3, h4 {
-        text-align: center;
-        margin: 0;
+        bottom: 390px;
+        position: absolute;
+        padding-left: 9%;
     }
 
-    .about-image {
-        order: 2;
+    .about-facts p {
         flex: 2;
-        margin-left: 20px;
-        padding-right: 20px;
-        height: 600px;
+        font-size: larger;
     }
 
+    /* Gallery Section  */
     .gallery-images img {
         padding: 1%;
         height: 400px;
         max-width: 100%;
     }
 
-    .nav-list-wrapper {
-        height: 70px;
-    }
+    /* Contact Section  */
     #contact form {
         width: 400px;
     }
@@ -387,15 +392,102 @@ nav ul li a:hover {
 
 @media (min-width: 1440px) {
     
-    #about {
+    /* Headings */
+    h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    /* About Section*/
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 100px;
+        padding-right: 100px;
+        height: 750px;
+    }
 
+    #about {
         margin-top: 0;
         height: auto;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    
+    .about-facts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-facts h2 {
+            bottom: 450px;
+            font-size: 3vh;
+            padding-left: 14%;
+    }
+    
+    
+    .about-facts p {
+        flex: 2;
+        font-size: x-large;
+    }
+
+
+     /* Gallery Section  */
+    .gallery-images img {
+        padding: 1%;
+        height: 500px;
+        max-width: 100%;
+    }
+ 
+    /* Navigation Section  */
+    .nav-list-wrapper {
+        height: 90px;
+    }
+    
+     /* Contact Section */
+    #contact form {
+        width: 500px;   
+    }
+}
         
+@media (min-width: 2560px) {
+      
+    /* Headings */
+      h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0;
+    }
+    nav ul li a {
+        display: block;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    /* Navigation Section */
+    .nav-list-wrapper {
+        height: 90px;
+    }
+    
+    /* About Section */
+    .about-image {
+        order: 2;
+        flex: 2;
+        margin-left: 100px;
+        padding-right: 100px;
+        height: 1200px;
+    }
+
+    #about {
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .about-facts {
@@ -403,67 +495,31 @@ nav ul li a:hover {
         flex-wrap: wrap;
     }
 
-    .about-facts h2{ 
-
-        bottom: 57%;
+    .about-facts h2 {
+        
+        bottom: 850px;
         font-size: 3vh;
-     }
-
-     .about-facts p {
+        padding-left: 14%;
+      }
+    
+    
+    .about-facts p {
         flex: 2;
-        font-size: x-large;
-     }
- 
-    h1, h2, h3, h4 {
-        text-align: center;
-        margin: 0;
+        font-size: xxx-large;
     }
 
-    .about-image {
-        order: 2;
-        flex: 2;
-        margin-left: 100px;
-        padding-right: 100px;
-        height: 600px;
-    }
 
+    /* Gallery Section */
     .gallery-images img {
         padding: 1%;
         height: 500px;
         max-width: 100%;
     }
 
-    .nav-list-wrapper {
-        height: 90px;
-    }
-    
+    /* Contact Section */
     #contact form {
         width: 500px;   
     }
 }
-   
-
-@media (min-width: 1440px) {
-    .about-facts h2 {
-        bottom: 45%;
-        font-size: 4vh;
-}
-.about-facts p {
-    flex: 2;
-    font-size: -webkit-xxx-large;
-}
-
-.about-image {
-    order: 2;
-    flex: 2;
-    margin-left: 100px;
-    padding-right: 100px;
-    height: 70vh;
-}
-
-}
-
-        
-
 
 
