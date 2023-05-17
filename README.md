@@ -1,7 +1,11 @@
 # Legends of Greece: Historical Insights
 Legends of Greece: Historical Insights is a landing page that provides reliable information about the historical facts and stories related to a specific artifact from ancient Greece. Designed for an audience interested in the history of ancient Greece, the webpage offers evidence-based insights, accompanied by images. It aims to be a small and user-friendly website that presents valuable historical information about ancient Greece in an engaging and accessible manner.
-# User Expectations
-"As a history enthusiast, I visit Legends of Greece: Historical Insights webpage to learn about a specific artifact from ancient Greece. I expect to find evidence-based information and a user-friendly design that makes it easy to access the information I'm looking for. By the end of my visit, I hope to have a comprehensive understanding of the historical insights related to the artifact, enhancing my knowledge about ancient Greece."
+## User Stories
+   - As a history enthusiast, I want to easily find my way around a website so that I can quickly access different sections and learn more about the historical artifacts and events that interest me.
+   - When visiting a history website, I expect to see a clear and visually appealing header section that provides me with navigation links to various sections of the website, such as a timeline, gallery, and contact page.
+   - When exploring a history website, I want to be able to access comprehensive and engaging information about the artifacts and events, accompanied by supporting images and facts.
+   - As a history enthusiast, I appreciate having access to a gallery of related historical artifacts and events so that I can deepen my knowledge and understanding of the historical context and significance.
+   - When browsing a history website, I expect to see contact information and links to social media so that I can easily get in touch with the website owners and stay updated on new content and events related to the website's theme.
 ## Features
 
 - __Navigation__
@@ -28,10 +32,10 @@ Legends of Greece: Historical Insights is a landing page that provides reliable 
 
 - __Typography and color scheme__
 
-  -The website uses a typography and color scheme that I carefully chose to make it visually appealing and easy to read. The heading text uses Roboto, sans-serif, while the body text uses Georgia, serif. The primary color of the website is F9E9DA.
+  - The website uses a typography and color scheme that I carefully chose to make it visually appealing and easy to read. The heading text uses Roboto, sans-serif, while the body text uses Georgia, serif. The primary color of the website is F9E9DA.
 
 - __Wireframe__
-  <img src="path/to/image.jpg" alt="alt text" width="500" height="300">
+  
   
 
 - __Code validation__
