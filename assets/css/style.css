@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -375,13 +375,9 @@ nav ul li a:hover {
         display: flex;
         flex-wrap: wrap;
     }
-
-    .about-facts h2{ 
-        bottom: 370px;
-        position: absolute;
-        padding-left: 9%;
+    .about-facts h2 {
+        font-size: 2rem;
     }
-
     .about-facts p {
         flex: 2;
         font-size: larger;
@@ -429,11 +425,8 @@ nav ul li a:hover {
     }
 
     .about-facts h2 {
-            bottom: 350px;
-            font-size: 2rem;
-            padding-left: 10%;
+        font-size: 3rem;
     }
-    
     
     .about-facts p {
         flex: 2;
@@ -508,10 +501,7 @@ nav ul li a:hover {
     }
 
     .about-facts h2 {
-        
-        bottom: 850px;
-        font-size: 3rem;
-        padding-left: 14%;
+        font-size: 5rem;
       }
     
     
