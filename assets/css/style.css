@@ -358,7 +358,7 @@ nav ul li a:hover {
         flex: 2;
         margin-left: 20px;
         padding-right: 20px;
-        height: 65vh;
+        height: 75vh;
     }
 
     #about {
@@ -379,7 +379,7 @@ nav ul li a:hover {
     }
     .about-facts p {
         flex: 2;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     /* Gallery Section  */
@@ -405,7 +405,7 @@ nav ul li a:hover {
     
     /* About Section*/
     .about-image {
-        height: 100vh
+        height: 85vh
     }
 
     #about {
@@ -429,7 +429,7 @@ nav ul li a:hover {
     
     .about-facts p {
         flex: 2;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
 
