@@ -124,7 +124,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     font-size: 3vh;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .gallery-images {
@@ -254,7 +254,6 @@ nav ul li a:hover {
 
     .gallery-images img {
         width: 90%;
-        max-width: 400px;
         height: auto;
         margin-bottom: 20px;
     }
@@ -380,7 +379,7 @@ nav ul li a:hover {
     }
     .about-facts p {
         flex: 2;
-        font-size: larger;
+        font-size: 1.5rem;
     }
 
     /* Gallery Section  */
@@ -406,7 +405,7 @@ nav ul li a:hover {
     
     /* About Section*/
     .about-image {
-        height: 80vh
+        height: 100vh
     }
 
     #about {
@@ -479,11 +478,7 @@ nav ul li a:hover {
     
     /* About Section */
     .about-image {
-        order: 2;
-        flex: 2;
-        margin-left: 100px;
-        padding-right: 100px;
-        height: 1200px;
+        height: 95vh;
     }
 
     #about {
@@ -507,7 +502,7 @@ nav ul li a:hover {
     
     .about-facts p {
         flex: 2;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
 
