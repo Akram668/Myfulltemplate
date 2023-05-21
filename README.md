@@ -34,12 +34,64 @@ Legends of Greece: Historical Insights is a landing page that provides reliable 
 
   - The website uses a typography and color scheme that I carefully chose to make it visually appealing and easy to read. The heading text uses Roboto, sans-serif, while the body text uses Georgia, serif. The primary color of the website is F9E9DA.
 
-- __Wireframe__
+__Wireframe__
   
   
 
-- __Code validation__
+__Code validation__
 
 The website is fully validated and meets the web development standards. You can find the validation links below.
   - CSS Validation: http://jigsaw.w3.org/css-validator/validator
   - HTML Validation: https://validator.w3.org/nu/#l35c14
+
+
+- __Credits__
+ Code 
+  - The footer code came from the Love Running projects
+  - 
+  
+__Content__
+  - All quotes on the index.html page came from https://artsandculture.google.com/asset/amphora-with-herakles-and-busiris-swing-painter-greek/9gFVJF7gYHs_Hg
+  - The gallery images came from https://www.metmuseum.org/art/collection/search?q=Swing+Painter&sortBy=Relevance&pageSize=0
+  - The image was taken from https://artsandculture.google.com/asset/amphora-with-herakles-and-busiris-swing-painter-greek/9gFVJF7gYHs_Hg
+  - The hero-banner was made on Figma 
+
+__Deployment__
+ 
+  I used GitHub Pages to deploy my website. To do this, I followed these steps:
+
+Created a repository on GitHub for my website.
+Pasted the repository link into Gitpod, my chosen source code editor.
+Made changes to the files for my website within Gitpod.
+Used Git commands to add the changes to the staging area and create a commit.
+Then, pushed the changes back to the GitHub repository using Git within Gitpod.
+Went to GitHub and opened my repository.
+Clicked on "Settings".
+Selected "Pages" from the sidebar.
+Clicked on "Branch" and chose the "master" branch.
+Now, a link was generated that displayed my live website.
+By following these steps, I was able to set up my website using Gitpod and GitHub Pages.
+
+ - __Technologies Used__
+- HTML5
+The project uses HyperText Markup Language.
+- CSS3
+The project uses Cascading Style Sheets.
+- Chrome
+The project uses Chrome to debug and test the source code using HTML5.
+- GitHub
+GitHub was used to store the project's code after being pushed from Git.
+
+
+__Testing__
+Automated testing 
+When working on my HTML, I utilized Google Developer Tools to style elements. For each element I added, I would first include the basic CSS in my stylesheet. Then, I used the "Inspect Element" feature in Google Developer Tools to experiment with different styles in real-time. Once I achieved the desired appearance, I would copy the CSS code from Google Developer Tools and paste it into my stylesheet. This approach helped me keep track of the code I was using while refining the styles for my website.
+
+- __Responsive Tools__
+- I used Am I Responsive to make sure that all my pages are responsive to all devices.
+W3C Validator Tools
+- I used W3C Markup to check for any errors within my HTML pages.
+-  used W3C CSS Validation to check for any error within my CSS stylesheet.
+- __Manual Testing__
+I have tested my site on Safari and google chrome on multiple devices
+
